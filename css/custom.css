@@ -1,0 +1,87 @@
+
+.preloader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 999999;
+  transition: .4s ease-in-out;
+}
+#get-started {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+
+
+#get-started .img-fluid{
+    height: 60px;
+    margin-bottom: 30px;
+    width: 60px;
+  }
+  
+  #get-started .feature-block {
+    background: #fff none repeat scroll 0 0;
+    padding: 30px 20px;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  @media (max-width: 991px) {
+    #get-started .feature-block {
+      margin-bottom: 30px;
+    }
+  }
+  
+  #get-started .feature-block:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #get-started .feature-block h4 {
+    margin-bottom: 20px;
+  }
+  
+  #get-started .feature-block p {
+    margin-bottom: 20px;
+  }
+  
+  #get-started .feature-block a {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s;
+  }
+  
+  #get-started .feature-block a:hover {
+    color: #71c55d;
+  }
+
+
+  
+#container-materi{
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.05);
+  color:#444;
+  padding:20px 25px;
+  position: relative;
+}
+
+#container-materi p{
+    font-size: 15px;
+}
+
+#container-materi .close{
+  position:absolute;
+  width:20px;
+  height: 50px;
+  top:10px;
+  right: 15px;
+}
+
+
+footer{
+  margin-top: 150px;
+}
